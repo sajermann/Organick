@@ -17,6 +17,9 @@ module.exports = {
 				green: {
 					500: '#7EB693',
 				},
+				yellow: {
+					500: '#EFD372 ',
+				},
 				pink: {
 					100: '#E3F1E9',
 				},
