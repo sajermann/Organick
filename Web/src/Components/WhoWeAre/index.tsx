@@ -1,4 +1,4 @@
-import { Fragment, useMemo } from 'react';
+import { useMemo } from 'react';
 import imageWhoWeAre from '~/Assets/whoWeAre.jpg';
 import { Title } from '../Title';
 import { TitleYellowtail } from '../TitleYellowtail';
