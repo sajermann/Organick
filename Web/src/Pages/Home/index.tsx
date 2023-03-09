@@ -1,4 +1,4 @@
-import { About } from '~/Components/About';
+import { About } from '~/Components/Home/About';
 import { Blog } from '~/Components/Blog';
 import { ExploreNowSection } from '~/Components/ExploreNowSection';
 import { Footer } from '~/Components/Footer';

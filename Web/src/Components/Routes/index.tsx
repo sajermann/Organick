@@ -1,10 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
-import { Home } from '../../Pages/Home';
+import { useRoutes } from '~/Hooks/UseRoutes';
 
 export function RoutesConfig() {
+	const { globalRoutes } = useRoutes();
 	return (
 		<Routes>
-			<Route path="/" element={<Home />} />
+			{globalRoutes.map(route => (
+				<Route path={route.path} element={route.element} />
+			))}
 		</Routes>
 	);
 }
