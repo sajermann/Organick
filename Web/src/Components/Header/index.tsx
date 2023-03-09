@@ -1,15 +1,18 @@
-import logo from '~/Assets/logo.svg';
 import { CartButton } from '../CartButton';
+import { Logo } from '../Logo';
 import { Menu } from '../Menu';
 import { Search } from '../Search';
 
 export function Header() {
 	return (
-		<header className="p-16 flex items-center justify-center">
-			<div className="flex items-center justify-center gap-36">
-				<img src={logo} alt="Organick Logo" />
-				<Menu />
-				<div className="flex items-center justify-center gap-4">
+		<header className="p-16">
+			<div className="flex items-center justify-between gap-4 flex-wrap">
+				<div className="justify-center flex items-center md:justify-between gap-4 flex-wrap">
+					<Logo />
+					<Menu />
+				</div>
+
+				<div className="justify-center flex items-center md:justify-between gap-4 flex-wrap">
 					<Search />
 					<CartButton />
 				</div>

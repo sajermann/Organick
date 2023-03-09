@@ -81,8 +81,12 @@ export function Testimonial() {
 
 	return (
 		<div className="flex justify-between w-full gap-4 bg-light-240">
-			<img className="w-1/5" src={imgLeft} alt="Testimonial Left Decoration" />
-			<div className="flex flex-col items-center justify-center gap-11 max-w-[60%]">
+			<img
+				className="hidden lg:block max-w-[calc(20%_-_16px)] "
+				src={imgLeft}
+				alt="Testimonial Left Decoration"
+			/>
+			<div className="w-full lg:max-w-[60%] flex flex-col items-center justify-center gap-10 py-5 ">
 				<TitleYellowtail>Testimonial</TitleYellowtail>
 				<p className="font-extrabold text-4xl">What Our Customer Saying?</p>
 				<div className="w-full overflow-hidden">
@@ -105,7 +109,7 @@ export function Testimonial() {
 					</Carousel>
 				</div>
 				<hr className="my-2 w-full" />
-				<div className=" flex gap-4">
+				<div className=" flex gap-4 flex-wrap justify-center">
 					{counters.map(count => (
 						<div
 							key={count.value}
@@ -120,7 +124,7 @@ export function Testimonial() {
 				</div>
 			</div>
 			<img
-				className="w-1/5"
+				className="hidden lg:block max-w-[calc(20%_-_16px)]"
 				src={imgRight}
 				alt="Testimonial Right Decoration"
 			/>

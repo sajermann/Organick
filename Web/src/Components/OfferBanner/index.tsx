@@ -4,7 +4,7 @@ import { TitleYellowtail } from '../TitleYellowtail';
 
 export function OfferBanner() {
 	return (
-		<div className="flex gap-9 my-11 w-full items-center justify-center">
+		<div className="flex gap-9 my-11 w-full items-center justify-center flex-wrap">
 			<div className="max-w-lg rounded-2xl overflow-hidden relative">
 				<img src={bannerBanana} alt="Get Garden Fresh Fruits" />
 				<div className="absolute top-1/2 -translate-y-1/2 flex-flex-col w-52 ml-5">

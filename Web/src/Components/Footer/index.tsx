@@ -1,5 +1,7 @@
-import bannerFooter from '~/Assets/bannerFooter.jpg';
 import { Button } from '../Button';
+import { IconButton } from '../IconButton';
+import { Icons } from '../Icons';
+import { Logo } from '../Logo';
 import { Title } from '../Title';
 
 export function Footer() {
@@ -33,9 +35,39 @@ export function Footer() {
 					</div>
 				</div>
 
-				<div className="col-span-6 p-10 flex flex-col gap-4">
-					logo
-					<p>das</p>
+				<div className="col-span-6 p-10 flex flex-col items-center gap-4">
+					<div className="h-14">
+						<Logo />
+					</div>
+					<p className="text-center">
+						Simply dummy text of the printing and typesetting industry. Lorem
+						Ipsum simply dummy text of the printing{' '}
+					</p>
+
+					<div className="flex gap-4">
+						<IconButton className="bg-light-300">
+							<Icons.Instagram width="20px" />
+						</IconButton>
+						<IconButton className="bg-light-300">
+							<Icons.Facebook width="20px" />
+						</IconButton>
+						<IconButton className="bg-light-300">
+							<Icons.Twitter width="20px" />
+						</IconButton>
+						<IconButton className="bg-light-300">
+							<Icons.Pintrest width="20px" />
+						</IconButton>
+					</div>
+				</div>
+
+				<div className="col-span-3 border-l-2 p-10 flex flex-col gap-4">
+					<p className="font-bold text-3xl">Utility Pages</p>
+
+					<p>Style Guide</p>
+					<p>404 Not Found</p>
+					<p>Password Protected</p>
+					<p>Licences</p>
+					<p>Changelog</p>
 				</div>
 			</div>
 		</footer>

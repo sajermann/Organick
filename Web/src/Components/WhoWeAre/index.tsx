@@ -26,9 +26,13 @@ export function WhoWeAre() {
 	);
 
 	return (
-		<div className="w-full  relative">
-			<img src={imageWhoWeAre} alt="Who We Are" />
-			<div className=" flex flex-col gap-8 rounded-3xl p-7 absolute bg-white max-w-xl top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+		<div className="w-full relative">
+			<img
+				src={imageWhoWeAre}
+				alt="Who We Are"
+				className="w-full opacity-0 md:opacity-100 2xl:w-1/2"
+			/>
+			<div className="w-full lg:max-w-xl flex flex-col gap-8 rounded-3xl p-7 absolute bg-white  top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
 				<TitleYellowtail>Eco Friendly</TitleYellowtail>
 				<Title>Econis is a Friendly Organic Store</Title>
 				{messages.map(msg => (

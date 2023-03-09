@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { Button } from '../Button';
 import { Card } from '../Card';
+import { Title } from '../Title';
 import { TitleYellowtail } from '../TitleYellowtail';
 
 export function Offer() {
@@ -44,17 +45,15 @@ export function Offer() {
 
 	return (
 		<div className="flex flex-col bg-dark-500 gap-4 p-28">
-			<div className="flex justify-between">
-				<div className="flex flex-col gap-2">
+			<div className="flex justify-between items-end flex-wrap gap-4">
+				<div className="flex flex-col gap-4">
 					<TitleYellowtail>Offer</TitleYellowtail>
-					<p className="font-extrabold text-white text-5xl">
-						We Offer Organic For You
-					</p>
+					<Title className=" text-white ">We Offer Organic For You</Title>
 				</div>
 				<Button variant="secondary">View All Product</Button>
 			</div>
 
-			<div className="flex items-center justify-between">
+			<div className="justify-center lg:justify-between flex items-center  flex-wrap gap-4">
 				{products.map(product => (
 					<Card key={product.title} {...product} />
 				))}
