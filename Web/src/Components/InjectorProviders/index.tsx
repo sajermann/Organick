@@ -8,7 +8,7 @@ import '../../Config/i18n';
 
 export function InjectorProviders({ children }: { children: ReactNode }) {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="Organick">
 			<DarkModeProvider>
 				<TestProvider>
 					<Header />
