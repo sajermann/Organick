@@ -33,6 +33,7 @@ jobs:
         working-directory: ./Web
         run: npm i
       - name: Build
+        working-directory: ./Web
         run: npm run build
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
