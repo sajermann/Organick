@@ -10,7 +10,7 @@ import * as path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react(), Pages()],
-	base: '/Organick/',
+	base: '/Organick',
 	resolve: {
 		alias: {
 			'~': path.resolve(__dirname, 'src'),

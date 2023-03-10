@@ -13,7 +13,8 @@ export function IconButton({
 			{...rest}
 			className={classNames({
 				[rest.className as string]: rest.className,
-				'w-14 h-14 rounded-full flex items-center justify-center': true,
+				'w-14 h-14 max-w-[3.5rem] min-w-[3.5rem] rounded-full flex items-center justify-center':
+					true,
 			})}
 		/>
 	);

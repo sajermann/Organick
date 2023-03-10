@@ -3,7 +3,7 @@ import { Icons } from '../Icons';
 
 export function Menu() {
 	return (
-		<ul className="font-bold text-xl text-dark-500 flex gap-10 flex-wrap">
+		<ul className="font-bold text-xl text-dark-500 justify-center items-center flex gap-10 flex-wrap">
 			<Link to="/">Home</Link>
 			<Link to="/about">About</Link>
 
