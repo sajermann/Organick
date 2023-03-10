@@ -23,7 +23,7 @@ export function Gallery() {
 	);
 
 	return (
-		<div className="w-full flex py-60 bg-light-260 gap-10 flex-wrap items-center justify-center">
+		<div className="w-full flex py-4 md:py-60 bg-light-260 gap-10 flex-wrap items-center justify-center">
 			{options.map(opt => (
 				<div
 					key={opt.title}

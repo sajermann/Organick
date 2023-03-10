@@ -14,7 +14,7 @@ export function InjectorProviders({ children }: { children: ReactNode }) {
 	console.log('width', window.screen.width);
 	console.log('height', window.screen.height);
 	return (
-		<BrowserRouter basename="Organick">
+		<BrowserRouter basename="Organick/">
 			<DarkModeProvider>
 				<TestProvider>
 					<Header />

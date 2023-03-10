@@ -78,7 +78,7 @@ export function Blog() {
 	);
 
 	return (
-		<div className="m-20 flex flex-col gap-4">
+		<div className="p-2 md:p-20 flex flex-col gap-4">
 			<TitleYellowtail>News</TitleYellowtail>
 			<div className="flex items-end justify-between flex-wrap gap-4">
 				<Title className="max-w-2xl">
