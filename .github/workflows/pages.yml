@@ -29,9 +29,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - name: Change Directory
-        run: cd ./Web
       - name: Npm Install
+        working-directory: ./Web
         run: npm i
       - name: Build
         run: npm run build
