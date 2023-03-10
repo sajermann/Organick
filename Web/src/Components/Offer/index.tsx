@@ -44,9 +44,9 @@ export function Offer() {
 	);
 
 	return (
-		<div className="flex flex-col bg-dark-500 gap-4 p-28">
-			<div className="flex justify-between items-end flex-wrap gap-4">
-				<div className="flex flex-col gap-4">
+		<div className="flex flex-col bg-dark-500 gap-4 p-2 lg:p-28">
+			<div className="flex justify-center lg:justify-between items-end flex-wrap gap-4">
+				<div className="flex flex-col gap-4 ">
 					<TitleYellowtail>Offer</TitleYellowtail>
 					<Title className=" text-white ">We Offer Organic For You</Title>
 				</div>

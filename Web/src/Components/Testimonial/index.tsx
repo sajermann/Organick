@@ -16,7 +16,7 @@ type Props = {
 
 function Card({ avatar, rating, note, name, title }: Props) {
 	return (
-		<div className="flex flex-col items-center justify-center w-full gap-4 py-11 px-44">
+		<div className="flex flex-col items-center justify-center w-full gap-4 py-11 px-2 lg:px-44">
 			<img className="w-28 h-28" src={avatar} alt="User Avatar" />
 			<Stars quantity={rating} />
 			<p className="text-center">{note}</p>
