@@ -239,6 +239,77 @@ function Factory({ width, height, color }: Props) {
 	);
 }
 
+function Eclipse({ width, height }: Pick<Props, 'height' | 'width'>) {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width={width || '100%'}
+			height={height || '100%'}
+			viewBox="0 0 19 19"
+			fill="none"
+		>
+			<circle cx="9.5" cy="9.5" r="9.5" fill="#7EB693" />
+			<circle cx="9.5" cy="9.5" r="5.5" fill="#ECECEC" />
+		</svg>
+	);
+}
+
+function ShippingCart({ width, height, color }: Props) {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width={width || '100%'}
+			height={height || '100%'}
+			fill={color || 'currentColor'}
+			viewBox="0 0 256 256"
+		>
+			<path d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z" />
+		</svg>
+	);
+}
+
+function Leaf({ width, height, color }: Props) {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width={width || '100%'}
+			height={height || '100%'}
+			fill={color || 'currentColor'}
+			viewBox="0 0 256 256"
+		>
+			<path d="M223.45,40.07a8,8,0,0,0-7.52-7.52C139.8,28.08,78.82,51,52.82,94a87.09,87.09,0,0,0-12.76,49c.57,15.92,5.21,32,13.79,47.85l-19.51,19.5a8,8,0,0,0,11.32,11.32l19.5-19.51C81,210.73,97.09,215.37,113,215.94q1.67.06,3.33.06A86.93,86.93,0,0,0,162,203.18C205,177.18,227.93,116.21,223.45,40.07ZM153.75,189.5c-22.75,13.78-49.68,14-76.71.77l88.63-88.62a8,8,0,0,0-11.32-11.32L65.73,179c-13.19-27-13-54,.77-76.71,22.09-36.47,74.6-56.44,141.31-54.06C210.2,114.89,190.22,167.41,153.75,189.5Z" />
+		</svg>
+	);
+}
+
+function Clock({ width, height, color }: Props) {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width={width || '100%'}
+			height={height || '100%'}
+			fill={color || 'currentColor'}
+			viewBox="0 0 256 256"
+		>
+			<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z" />
+		</svg>
+	);
+}
+
+function CreditCard({ width, height, color }: Props) {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width={width || '100%'}
+			height={height || '100%'}
+			fill={color || 'currentColor'}
+			viewBox="0 0 256 256"
+		>
+			<path d="M224,48H32A16,16,0,0,0,16,64V192a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V64A16,16,0,0,0,224,48Zm0,16V88H32V64Zm0,128H32V104H224v88Zm-16-24a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h32A8,8,0,0,1,208,168Zm-64,0a8,8,0,0,1-8,8H120a8,8,0,0,1,0-16h16A8,8,0,0,1,144,168Z" />
+		</svg>
+	);
+}
+
 export const Icons = {
 	Arrow,
 	ArrowDown,
@@ -252,4 +323,9 @@ export const Icons = {
 	Pintrest,
 	Tractor,
 	Factory,
+	Eclipse,
+	ShippingCart,
+	Leaf,
+	Clock,
+	CreditCard,
 };
