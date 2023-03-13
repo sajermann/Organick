@@ -1,8 +1,5 @@
 import { Title } from '~/Components/Title';
 import { TitleYellowtail } from '~/Components/TitleYellowtail';
-import imageAboutUs from '~/Assets/aboutUs.png';
-import { Icons } from '~/Components/Icons';
-import { Button } from '~/Components/Button';
 
 export function WhyChooseUs() {
 	return (
