@@ -49,7 +49,7 @@ export function WhyChooseUs() {
 	return (
 		<div className="p-2 lg:p-28 flex flex-col  gap-20 bg-light-100">
 			<div className="flex gap-10">
-				<div className="flex flex-col gap-4 w-1/2">
+				<div className="flex flex-col gap-4 w-full lg:w-1/2">
 					<TitleYellowtail>Why Choose us?</TitleYellowtail>
 					<Title>We do not buy from the open market & traders.</Title>
 					<p>
@@ -76,7 +76,7 @@ export function WhyChooseUs() {
 					</div>
 				</div>
 
-				<div className="w-1/2 bg-[url('~/Assets/about-why-choose-us.jpg')] bg-cover rounded-3xl" />
+				<div className="hidden lg:block w-1/2 bg-[url('~/Assets/about-why-choose-us.jpg')] bg-cover rounded-3xl" />
 			</div>
 
 			<div className="p-2 2xl:p-36 grid grid-cols-12 gap-5">
