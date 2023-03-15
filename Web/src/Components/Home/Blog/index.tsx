@@ -1,13 +1,14 @@
 import { useMemo } from 'react';
 import dayjs from 'dayjs';
+
 import imageCarbbage from '~/Assets/blog-carbbage.png';
 import imageTomato from '~/Assets/blog-tomato.png';
+import { TitleYellowtail } from '~/Components/TitleYellowtail';
+import { Title } from '~/Components/Title';
+import { Button } from '~/Components/Button';
+import { Icons } from '~/Components/Icons';
 
-import { TitleYellowtail } from '../TitleYellowtail';
-import { Title } from '../Title';
-import { Button } from '../Button';
 import styles from './index.module.css';
-import { Icons } from '../Icons';
 
 type Props = {
 	image: string;

@@ -1,9 +1,9 @@
 import bannerAbout from '~/Assets/background-about-home.png';
 import leaftCup from '~/Assets/leaft-cup.png';
 import mail from '~/Assets/mail.png';
-import { Button } from '../../Button';
-import { Title } from '../../Title';
-import { TitleYellowtail } from '../../TitleYellowtail';
+import { Button } from '~/Components/Button';
+import { Title } from '~/Components/Title';
+import { TitleYellowtail } from '~/Components/TitleYellowtail';
 
 export function About() {
 	return (

@@ -1,18 +1,18 @@
 import { About } from '~/Components/Home/About';
-import { Blog } from '~/Components/Blog';
-import { ExploreNowSection } from '~/Components/ExploreNowSection';
+import { Banner } from '~/Components/Home/Banner';
 import { Footer } from '~/Components/Footer';
-import { Gallery } from '~/Components/Gallery';
-import { Offer } from '~/Components/Offer';
-import { OfferBanner } from '~/Components/OfferBanner';
-import { Shop } from '~/Components/Shop';
-import { Testimonial } from '~/Components/Testimonial';
-import { WhoWeAre } from '~/Components/WhoWeAre';
+import { OfferBanner } from '~/Components/Home/OfferBanner';
+import { Shop } from '~/Components/Home/Shop';
+import { Testimonial } from '~/Components/Home/Testimonial';
+import { Offer } from '~/Components/Home/Offer';
+import { Gallery } from '~/Components/Home/Gallery';
+import { Blog } from '~/Components/Home/Blog';
+import { WhoWeAre } from '~/Components/Home/WhoWeAre';
 
 export function Home() {
 	return (
-		<div>
-			<ExploreNowSection />
+		<>
+			<Banner />
 			<OfferBanner />
 			<About />
 			<Shop />
@@ -22,6 +22,6 @@ export function Home() {
 			<Gallery />
 			<Blog />
 			<Footer />
-		</div>
+		</>
 	);
 }

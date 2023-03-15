@@ -1,6 +1,6 @@
 import bannerBanana from '~/Assets/food-banana.png';
 import bannerFruits from '~/Assets/food-fruits-offer.png';
-import { TitleYellowtail } from '../TitleYellowtail';
+import { TitleYellowtail } from '~/Components/TitleYellowtail';
 
 export function OfferBanner() {
 	return (

@@ -1,10 +1,11 @@
 import Carousel from 'nuka-carousel';
 import { useMemo } from 'react';
+
 import imgLeft from '~/Assets/testimonial-left.png';
 import imgRight from '~/Assets/testimonial-right.png';
-import { Stars } from '../Stars';
-import { Title } from '../Title';
-import { TitleYellowtail } from '../TitleYellowtail';
+import { Stars } from '~/Components/Stars';
+import { Title } from '~/Components/Title';
+import { TitleYellowtail } from '~/Components/TitleYellowtail';
 
 type Props = {
 	avatar: string;

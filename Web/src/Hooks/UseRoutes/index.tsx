@@ -9,6 +9,12 @@ const AboutPage = lazy(() =>
 	}))
 );
 
+const ShopPage = lazy(() =>
+	import('~/Pages/Shop').then(({ Shop }) => ({
+		default: Shop,
+	}))
+);
+
 export function useRoutes() {
 	const globalRoutes: TRoute[] = useMemo(
 		(): TRoute[] => [
@@ -21,6 +27,11 @@ export function useRoutes() {
 				name: 'About',
 				path: '/about',
 				element: <AboutPage />,
+			},
+			{
+				name: 'Shop',
+				path: '/shop',
+				element: <ShopPage />,
 			},
 		],
 		[]

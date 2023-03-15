@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import imageWhoWeAre from '~/Assets/whoWeAre.jpg';
-import { Title } from '../Title';
-import { TitleYellowtail } from '../TitleYellowtail';
+import { Title } from '~/Components/Title';
+import { TitleYellowtail } from '~/Components/TitleYellowtail';
 
 export function WhoWeAre() {
 	const messages = useMemo(

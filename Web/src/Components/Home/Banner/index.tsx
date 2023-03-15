@@ -1,8 +1,8 @@
 import background from '~/Assets/background-food-home.png';
-import { Button } from '../Button';
-import { TitleYellowtail } from '../TitleYellowtail';
+import { Button } from '~/Components/Button';
+import { TitleYellowtail } from '~/Components/TitleYellowtail';
 
-export function ExploreNowSection() {
+export function Banner() {
 	return (
 		<div className="bg-[url('~/Assets/background-home.png')] bg-cover bg-pink-100 flex items-center justify-between px-2 lg:px-40">
 			<div className="flex flex-col w-[530px] gap-5 py-4">

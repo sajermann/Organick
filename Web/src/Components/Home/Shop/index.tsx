@@ -1,8 +1,9 @@
 import { useMemo } from 'react';
-import { Button } from '../Button';
-import { Card } from '../Card';
-import { Title } from '../Title';
-import { TitleYellowtail } from '../TitleYellowtail';
+
+import { Button } from '~/Components/Button';
+import { Card } from '~/Components/Card';
+import { Title } from '~/Components/Title';
+import { TitleYellowtail } from '~/Components/TitleYellowtail';
 
 export function Shop() {
 	const products = useMemo(
