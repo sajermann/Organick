@@ -9,7 +9,7 @@ type Props = {
 	rating: number;
 };
 
-export function Card({
+export function ProductCard({
 	category,
 	img,
 	title,

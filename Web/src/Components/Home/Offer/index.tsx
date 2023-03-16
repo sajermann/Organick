@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
 import { Button } from '~/Components/Button';
-import { Card } from '~/Components/Card';
+import { ProductCard } from '~/Components/ProductCard';
 import { Title } from '~/Components/Title';
 import { TitleYellowtail } from '~/Components/TitleYellowtail';
 
@@ -56,7 +56,7 @@ export function Offer() {
 
 			<div className="justify-center lg:justify-between flex items-center  flex-wrap gap-4">
 				{products.map(product => (
-					<Card key={product.title} {...product} />
+					<ProductCard key={product.title} {...product} />
 				))}
 			</div>
 		</div>
