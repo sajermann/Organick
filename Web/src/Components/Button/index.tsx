@@ -8,7 +8,7 @@ interface Props
 		ButtonHTMLAttributes<HTMLButtonElement>,
 		HTMLButtonElement
 	> {
-	variant?: 'primary' | 'secondary' | 'outline';
+	variant?: 'primary' | 'secondary' | 'outline' | 'link';
 	hideIcon?: true;
 }
 
@@ -22,6 +22,7 @@ export function Button({ variant = 'primary', hideIcon, ...rest }: Props) {
 				'bg-dark-500 text-white': variant === 'primary',
 				'bg-yellow-500 text-dark-500': variant === 'secondary',
 				'border border-dark-500 text-dark-500': variant === 'outline',
+				'text-dark-500 !justify-start !h-10': variant === 'link',
 				[rest.className as string]: rest.className,
 			})}
 		>
