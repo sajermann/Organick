@@ -21,8 +21,8 @@ export function Contact() {
 					<Title>We&apos;d love to talk about how we can work together.</Title>
 					<span>
 						Simply dummy text of the printing and typesetting industry. Lorem
-						had ceased to been the industry&apos;s standard dummy text ever
-						since the 1500s, when an unknown printer took a galley.
+						Ipsum had ceased to been the industry&apos;s standard dummy text
+						ever since the 1500s, when an unknown printer took a galley.
 					</span>
 
 					<div>
