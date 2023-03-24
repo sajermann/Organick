@@ -38,7 +38,7 @@ export function Products() {
 			},
 			{
 				category: 'Health',
-				img: 'https://alvikslantbruksab.com/wp-content/uploads/2021/05/PL5.png',
+				img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mung_beans.png/2158px-Mung_beans.png',
 				title: 'Mung Bean',
 				oldPrice: 12,
 				currentPrince: 11,
@@ -70,10 +70,10 @@ export function Products() {
 			},
 			{
 				category: 'Vegetable',
-				img: 'https://alvikslantbruksab.com/wp-content/uploads/2021/05/PL6.png',
-				title: 'Calabrese Broccoli 2',
-				oldPrice: 19,
-				currentPrince: 12.99,
+				img: 'https://i.pinimg.com/originals/73/a9/b9/73a9b916a6a8d75b71e91a7287c07d75.png',
+				title: 'Lettuce',
+				oldPrice: 1,
+				currentPrince: 0.59,
 				rating: 5,
 			},
 			{

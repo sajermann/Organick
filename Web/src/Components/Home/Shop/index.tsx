@@ -42,7 +42,7 @@ export function Shop() {
 			},
 			{
 				category: 'Health',
-				img: 'https://alvikslantbruksab.com/wp-content/uploads/2021/05/PL5.png',
+				img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mung_beans.png/2158px-Mung_beans.png',
 				title: 'Mung Bean',
 				oldPrice: 12,
 				currentPrince: 11,
