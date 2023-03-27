@@ -21,19 +21,11 @@ export function Menu() {
 					<Link to="/shop" className="hover:bg-light-100 px-2">
 						Shop
 					</Link>
-					<Link to="/portfolio" className="hover:bg-light-100 px-2">
-						Portfolio
-					</Link>
-
-					<Link to="/contact" className="hover:bg-light-100 px-2">
-						Contact
-					</Link>
 				</div>
 			</div>
-
-			<Link to="/shop">Shop</Link>
-			<Link to="/projects">Projects</Link>
-			<Link to="/new">New</Link>
+			<Link to="/contact" className="hover:bg-light-100 px-2">
+				Contact
+			</Link>
 		</ul>
 	);
 }
